@@ -8,20 +8,12 @@
 </head>
 
 <body>
-    <form method="POST">
+    <form action="ex22pagina2.php" method="POST">
         <label for="quantitat">Quantitat: </label>
         <input type="number" name="quantitat" id="quantitat" placeholder="10">
 
         <input type="submit" value="Submit">
     </form>
-
-    <?php
-
-    if (isset($_POST["quantitat"])) {
-        
-    }
-    $quantitat = 0;
-    ?>
 </body>
 
 </html>

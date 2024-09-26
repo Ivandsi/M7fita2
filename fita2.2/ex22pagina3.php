@@ -10,10 +10,6 @@
 <body>
     <?php
 
-    if (isset($_POST["quantitat"])) {
-        $quantitat = $_POST["quantitat"];
-    }
-    
     ?>
 </body>
 
