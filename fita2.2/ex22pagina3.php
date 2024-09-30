@@ -10,6 +10,10 @@
 <body>
     <?php
 
+    if (isset($_GET["numero"])) {
+        $numero = $_GET["numero"];
+        echo "<h1>Comanda $numero</h1>";
+    }
     ?>
 </body>
 

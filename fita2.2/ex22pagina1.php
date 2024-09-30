@@ -12,7 +12,7 @@
         <label for="quantitat">Quantitat: </label>
         <input type="number" name="quantitat" id="quantitat" placeholder="10">
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Enviar">
     </form>
 </body>
 
